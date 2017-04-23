@@ -46,7 +46,7 @@ class LinkUGuide extends React.Component{
                     <Grid style={{width: '100%'}} centered verticalAlign="middle">
                         <Grid.Column width={3}>
                             <div>
-                                <Image style={firstGuideImageStyle} src="http://localhost:8000/media/how_to_join_1.png" floated="left"/>
+                                <Image style={firstGuideImageStyle} src="/media/how_to_join_1.png" floated="left"/>
                             </div>
                         </Grid.Column>
                         <Grid.Column width={6}>
@@ -79,7 +79,7 @@ class LinkUGuide extends React.Component{
                         </Grid.Column>
                         <Grid.Column width={3}>
                             <div>
-                                <Image style={secondGuideImageStyle} src="http://localhost:8000/media/how_to_join_2.png" floated="right"/>
+                                <Image style={secondGuideImageStyle} src="/media/how_to_join_2.png" floated="right"/>
                             </div>
                         </Grid.Column>
                     </Grid>
@@ -89,7 +89,7 @@ class LinkUGuide extends React.Component{
                     <Grid style={{width: '100%'}} centered verticalAlign="middle">
                         <Grid.Column width={3}>
                             <div>
-                                <Image style={thirdGuideImageStyle} src="http://localhost:8000/media/how_to_join_3.png" floated="left"/>
+                                <Image style={thirdGuideImageStyle} src="/media/how_to_join_3.png" floated="left"/>
                             </div>
                         </Grid.Column>
                         <Grid.Column width={6}>
@@ -123,7 +123,7 @@ class LinkUGuide extends React.Component{
                         </Grid.Column>
                         <Grid.Column width={3}>
                             <div>
-                                <Image style={fourthGuideImageStyle} src="http://localhost:8000/media/how_to_join_4.png" floated="right"/>
+                                <Image style={fourthGuideImageStyle} src="/media/how_to_join_4.png" floated="right"/>
                             </div>
                         </Grid.Column>
                     </Grid>

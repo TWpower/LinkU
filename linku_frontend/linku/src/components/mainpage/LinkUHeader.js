@@ -55,7 +55,7 @@ class LinkUHeader extends Component {
 
         return (
             <Container style={containerStyle}>
-                <Image src='http://localhost:8000/media/logo_top.png' verticalAlign='top'/>
+                <Image src='/media/logo_top.png' verticalAlign='top'/>
                 <span style={titleStyle}>Link U Link University</span>
                 {
                     (localStorage.getItem('token') && this.props.loggedIn) ?

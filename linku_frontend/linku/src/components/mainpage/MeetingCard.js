@@ -81,7 +81,7 @@ class MeetingCard extends React.Component
             textAlign: 'left',
         };
         let meetingMainInfoStyle = {
-            backgroundImage: 'url(http://localhost:8000/media/meeting_card.jpg)',
+            backgroundImage: 'url(/media/meeting_card.jpg)',
             paddingTop: '35px',
             paddingLeft: '35px',
             paddingRight: '35px',
@@ -197,7 +197,7 @@ class MeetingCard extends React.Component
                                 </div>
                                 <Item.Group>
                                     <Item>
-                                        <Item.Image style={meetingDetailImageLogoStyle} src='http://localhost:8000/media/meeting_leader_profile.png' />
+                                        <Item.Image style={meetingDetailImageLogoStyle} src='/media/meeting_leader_profile.png' />
                                         <Item.Content>
                                             <Item.Description>
                                                 <div style={{lineHeight: '23px'}}>

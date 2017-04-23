@@ -29,7 +29,7 @@ class IntroVideo extends React.Component {
             width: "100%",
             height: "8%",
             textAlign: "center",
-            fontFamily: 'url(http://localhost:8000/static/assets/KoPubDotumLight.ttf)',
+            fontFamily: 'url(/static/assets/KoPubDotumLight.ttf)',
             color: '#61a1d8',
             fontSize: '20pt',
             marginTop: '67px',

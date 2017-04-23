@@ -15,7 +15,7 @@ export default class ApplicationCompletionModal extends Component{
             headers: { 'Authorization': 'Token '+token }
         };
 
-        const info = await Promise.all([axios.post('http://127.0.0.1:8000/apply-alarm/','apply_alarm_index='+applicationIndex,config)
+        const info = await Promise.all([axios.post('api/apply-alarm/','apply_alarm_index='+applicationIndex,config)
             .then(response => {
                 console.log(response.data);
             })

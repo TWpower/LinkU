@@ -6,9 +6,6 @@ linku/node_modules
 # testing
 linku/coverage
 
-# production
-linku/build
-
 # misc
 .DS_Store
 .env

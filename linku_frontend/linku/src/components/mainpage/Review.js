@@ -42,7 +42,7 @@ const Review = () => {
         <Container style={{marginTop: '72px'}}>
             <Grid textAlign="left">
                 <Grid.Column width={8}>
-                    <Image src='http://localhost:8000/media/review.png' verticalAlign="middle"/>
+                    <Image src='/media/review.png' verticalAlign="middle"/>
                 </Grid.Column>
                 <Grid.Column width={8}>
 

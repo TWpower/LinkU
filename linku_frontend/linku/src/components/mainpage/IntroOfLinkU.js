@@ -56,7 +56,7 @@ class IntroOfLinkU extends React.Component {
                     <Grid.Row columns={3}>
                         <Grid.Column textAlign="center">
 
-                            <Image style={serviceIntroImageStyle} src='http://localhost:8000/media/linku_intro_image_1.png' verticalAlign="middle"/>
+                            <Image style={serviceIntroImageStyle} src='/media/linku_intro_image_1.png' verticalAlign="middle"/>
                             <div style={serviceIntroHeaderStyle}>
                                 대학생
                             </div>
@@ -70,7 +70,7 @@ class IntroOfLinkU extends React.Component {
                         </Grid.Column>
                         <Grid.Column textAlign="center">
 
-                            <Image style={serviceIntroImageStyle} src='http://localhost:8000/media/linku_intro_image_2.png' verticalAlign="middle"/>
+                            <Image style={serviceIntroImageStyle} src='/media/linku_intro_image_2.png' verticalAlign="middle"/>
                             <div style={serviceIntroHeaderStyle}>
                                 놀기
                             </div>
@@ -83,7 +83,7 @@ class IntroOfLinkU extends React.Component {
                         </Grid.Column>
                         <Grid.Column textAlign="center">
 
-                            <Image style={serviceIntroImageStyle} src='http://localhost:8000/media/linku_intro_image_3.png' verticalAlign="middle"/>
+                            <Image style={serviceIntroImageStyle} src='/media/linku_intro_image_3.png' verticalAlign="middle"/>
                             <div style={serviceIntroHeaderStyle}>
                                 친구
                             </div>
