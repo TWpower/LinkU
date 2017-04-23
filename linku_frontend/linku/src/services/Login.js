@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export function login(username, password){
-    return axios.post('/login/', {
+    return axios.post('/api/login/', {
         "username": username,
         "password" : password
     }).catch((e) => {
